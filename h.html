@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip-path example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .shape {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            clip-path: polygon(
+                    0% 0%,
+                    100% 0%,
+                    100% 100%,
+                    75% 100%,
+                    72% 95%,
+                    70% 92%,
+                    68% 89%,
+                    66% 87%,
+                    64% 85%,
+                    62% 84%,
+                    60% 83%,
+                    58% 82%,
+                    56% 81.5%,
+                    54% 81%,
+                    52% 80.5%,
+                    50% 80%,
+                    48% 80.5%,
+                    46% 81%,
+                    44% 81.5%,
+                    42% 82%,
+                    40% 83%,
+                    38% 84%,
+                    36% 85%,
+                    34% 87%,
+                    32% 89%,
+                    30% 92%,
+                    28% 95%,
+                    25% 100%,
+                    0% 100%
+            );
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="shape"></div>
+</body>
+</html>
